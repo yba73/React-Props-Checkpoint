@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Profile name={fullName} my_bio={bio} my_profession={profession}  handlName={handlName}>
-      <img src={image} alt="anime" />
+      <img className='animei' src={image} alt="anime" />
       </Profile>
       </header>
     </div>
