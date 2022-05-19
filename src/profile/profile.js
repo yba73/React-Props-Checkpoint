@@ -1,8 +1,8 @@
 import React from 'react'
 import {PropTypes} from "prop-types"
 
-const styleB = {color : "red", backgroundClor :"blue"}
-const styleH1 = {color : "red", fontSize : "medium", textAlign: "center"}
+const styleB = {color : "red",  width :100, Height: 700}
+const styleH1 = {color : "green", fontSize : "medium", textAlign: "center"}
 
 const Profile = ({name, my_bio, my_profession,children,handlName})  => {
   return (
